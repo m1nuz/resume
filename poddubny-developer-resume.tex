@@ -1,0 +1,94 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage{fontspec}
+
+% fonts
+\usepackage{xunicode}
+\usepackage{xltxtra}
+\defaultfontfeatures{Mapping=tex-text} % converts LaTeX specials (``quotes'' --- dashes etc.) to unicode
+\setromanfont [Ligatures={Common}, BoldFont={Gentium Basic Bold}, ItalicFont={Gentium Basic Italic}]{Gentium Basic}
+\setmonofont[Scale=0.8]{Monaco} 
+
+\usepackage[utf8x]{inputenc}
+\usepackage{ucs}
+\usepackage{textcase}
+\usepackage{vmargin}
+\usepackage{sectsty}
+\usepackage{fontawesome}
+\usepackage{xcolor}
+
+\usepackage[unicode,bookmarks,colorlinks,breaklinks]{hyperref}
+\hypersetup{linkcolor=blue,citecolor=blue,filecolor=black,urlcolor=blue}
+
+\newcommand\faSkype{{\FA\symbol{"F17E}}}
+
+\thispagestyle{empty}
+\setmarginsrb{2.5cm}{2.5cm}{1cm}{1.25cm}{0pt}{0mm}{0pt}{13mm}
+
+\sectionfont{\rmfamily\mdseries\upshape\Large}
+\subsectionfont{\rmfamily\bfseries\upshape\normalsize} 
+\subsubsectionfont{\rmfamily\mdseries\upshape\normalsize}
+
+\begin{document}
+
+\begin{LARGE}
+\begin{center}
+\noindent \textbf{C/C++ Developer}
+\end{center}
+\end{LARGE}
+
+\begin{Large}
+\noindent \textbf{Michael Poddubny}
+\end{Large}
+
+\noindent
+\begin{tabular}{l p{3.2cm} l}
+\faEnvelope & e-mail & \href{mailto:xminuz@gmail.com}{xminuz@gmail.com}\\
+\faMobilePhone & phone & +380958914905\\
+\faSkype{}& skype & xminuz\\
+\faHome & address & Ukraine, Chuguev\\
+\faGithub & github & \href{https://github.com/m1nuz}{github.com/m1nuz} \\
+\end{tabular}
+
+\section*{Education}
+\begin{tabular}{p{4cm} p{12cm}}
+2010 -- 2012 & Specialist, National Technical University “Kharkiv Polytechnic Institute”, a speciality - System Programming\\
+2006 -- 2010 & Bachelor, National Technical University “Kharkiv Polytechnic Institute”, a speciality - System Programming\\
+\end{tabular}
+
+\section*{Experience}
+\begin{tabular}{p{4cm} p{12cm}}
+Apr 2013 -- Feb 2014 & <<Battle for Proxima>> Computer game. Game engine developer.\\
+Oct 2012 -- Jan 2013 & Freelance. Qt developer.\\
+Jul 2012 -- Sep 2012 & Hardware-software firewall for PC. Software Developer.\\
+\end{tabular}
+
+\section*{Computer skills}
+\begin{tabular}{p{4cm} p{12cm}}
+OS & Windows, Linux\\
+Programming & C, C++, Lua, Python\\
+Technologies/Libraries & OOP, OOAD, Graphics Programming, Multithreaded programming, Network programming(TCP/IP, UDP), GUI, STL, WinAPI, POSIX, Xlib, Qt, GTK+, OpenGL/OpenGL ES/GLSL, OpenAL, SQLite, Windows sockets 2, ptheads, SDL\\
+Development tools & Visual Studio, Qt Creator, CMake, autotools\\
+Revision control & Subversion, Git\\
+Other & LaTeX\\
+\end{tabular}
+
+\section*{Interests}
+\begin{tabular}{p{4cm} p{12cm}}
+IT & Computer Graphics, Programming for Embedded Systems\\
+Science & Rigid Body Physics, Robotics, Artificial intelligence\\
+\end{tabular}
+
+\section*{Languages}
+Ukranian, Russian, English
+\section*{Publications}
+2012 <<Problems of Informatics and modeling>> International Scientific and Technical Conference,\\ Kharkiv, Yalta\\
+Subject : <<Features of creating a virtual laboratory of microcontrollers with minimal resources>>.\\
+Subject : <<Hardware-software firewall for PC>>.
+\vfill
+
+\begin{center}
+\textcolor{gray}{Last updated: \today}
+\end{center}
+
+\end{document}
